@@ -18,7 +18,7 @@ def parse_input_file() -> List[int]:
 
 
 
-def find_two_ints_summing_to(l: list, total: int):
+def find_two_ints_summing_to(l: List[int], total: int) -> int:
     """Find two ints in list that sum to total
 
     Args:
@@ -38,7 +38,7 @@ def find_two_ints_summing_to(l: list, total: int):
 
 
 
-def find_three_ints_summing_to(l, total):
+def find_three_ints_summing_to(l: List[int], total: int) -> int:
     """Find three ints in list that sum to total
 
     Time complexity: O(n**2): iterate through all elements, compute
