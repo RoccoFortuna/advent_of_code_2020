@@ -11,7 +11,7 @@ def parse_input_file() -> List[int]:
     Returns:
         List[int]: input ints
     """
-    input_path = "./input.txt"
+    input_path = "./d1_report_repair/input.txt"
     with open(input_path, "r") as file:
         input_list = [int(k) for k in file.read().strip().split("\n")]
     return input_list

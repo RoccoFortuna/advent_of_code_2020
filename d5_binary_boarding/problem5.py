@@ -1,7 +1,7 @@
 from typing import List
 
 def parse_input_file() -> List[str]:
-    input_path = "./input.txt"
+    input_path = "./d5_binary_boarding/input.txt"
     with open(input_path, "r") as file:
         lines = file.read().strip().split("\n")
 

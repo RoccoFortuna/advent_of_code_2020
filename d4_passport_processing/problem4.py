@@ -2,7 +2,7 @@ from typing import List, Dict
 
 
 def parse_input_file() -> List[Dict[str, str]]:
-    input_path = "./input.txt"
+    input_path = "./d4_passport_processing/input.txt"
     with open(input_path, "r") as file:
         passports_str = file.read().strip().split("\n\n")
         passports = []

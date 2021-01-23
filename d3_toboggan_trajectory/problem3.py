@@ -1,7 +1,7 @@
 from typing import List, Tuple
 
 def parse_input_file() -> List[str]:
-    input_path = "./input.txt"
+    input_path = "./d3_toboggan_trajectory/input.txt"
     with open(input_path, "r") as file:
         lines = file.read().strip().split("\n")
 

@@ -1,7 +1,7 @@
 from typing import List, Tuple
 
 def parse_input_file() -> List[Tuple[int, int, str, str]]:
-    input_path = "./input.txt"
+    input_path = "./d2_password_philosophy/input.txt"
     with open(input_path, "r") as file:
         lines = [k for k in file.read().strip().split("\n")]
 
