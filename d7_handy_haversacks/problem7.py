@@ -4,7 +4,7 @@ from typing import List, Tuple, Dict, Set
 Color = str
 
 def parse_input_file():
-    with open('./input.txt', 'r') as f:
+    with open('./d7_handy_haversacks/input.txt', 'r') as f:
         lines = f.read().strip().split('\n')
 
     clr_contains = {}
